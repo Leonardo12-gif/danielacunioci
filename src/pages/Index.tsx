@@ -252,46 +252,6 @@ const Index = () => {
 
         <PortfolioCarousel />
 
-        <div className="section-divider" />
-
-        <section aria-labelledby="servicos-titulo">
-          <div className="reveal flex flex-col items-center text-center">
-            <h2
-              id="servicos-titulo"
-              className="font-label text-gold uppercase"
-              style={{ fontSize: "10px", letterSpacing: "0.22em", fontWeight: 400 }}
-            >
-              Serviços
-            </h2>
-            <div className="mt-2.5">
-              <OrnamentLine width={24} delay={0} />
-            </div>
-          </div>
-
-          <ul className="mt-6 grid grid-cols-2 gap-2.5">
-            {services.map((s, i) => (
-              <li
-                key={s.name}
-                className="reveal rounded-[12px] border border-divider bg-surface px-3.5 py-4 transition-[background-color,border-color] duration-300 hover:border-gold hover:bg-surface-2"
-                style={{ transitionDelay: `${i * 80}ms` }}
-              >
-                <h3
-                  className="font-label text-gold uppercase"
-                  style={{ fontSize: "10px", letterSpacing: "0.18em", fontWeight: 400 }}
-                >
-                  {s.name}
-                </h3>
-                <p
-                  className="mt-1.5 font-label text-soft"
-                  style={{ fontSize: "12px", fontWeight: 300, lineHeight: 1.55 }}
-                >
-                  {s.desc}
-                </p>
-              </li>
-            ))}
-          </ul>
-        </section>
-
         <footer className="mt-10 flex justify-center pb-7 pt-2">
           <a
             href="https://www.frezamarketing.com.br"
