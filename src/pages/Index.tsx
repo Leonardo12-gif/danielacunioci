@@ -99,12 +99,12 @@ const Index = () => {
               DANIELA CUNIOCI
             </h1>
             <span
-              className="inline-flex items-center rounded-full px-2.5 py-[3px] font-label text-gold"
+              className="inline-flex items-center rounded-full px-2.5 py-[3px] font-label text-gold-accent"
               style={{
                 fontSize: "10px",
                 letterSpacing: "0.18em",
-                fontWeight: 400,
-                border: "1px solid var(--divider)",
+                fontWeight: 600,
+                border: "1px solid var(--gold-accent)",
                 textTransform: "uppercase",
               }}
             >
@@ -120,13 +120,13 @@ const Index = () => {
           </div>
 
           <p
-            className="mt-4 font-serif text-mid animate-fade-up"
+            className="mt-4 font-serif text-gold-accent animate-fade-up"
             style={{
               animationDelay: "250ms",
               animationFillMode: "both",
               fontSize: "17px",
               letterSpacing: "0.02em",
-              fontWeight: 300,
+              fontWeight: 500,
             }}
           >
             Cílios e Sobrancelhas · Alphaville
