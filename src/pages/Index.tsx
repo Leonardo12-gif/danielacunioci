@@ -123,10 +123,9 @@ const Index = () => {
             style={{
               animationDelay: "250ms",
               animationFillMode: "both",
-              fontSize: "15px",
+              fontSize: "17px",
               letterSpacing: "0.02em",
               fontWeight: 300,
-              fontStyle: "italic",
             }}
           >
             Cílios e Sobrancelhas · Alphaville
