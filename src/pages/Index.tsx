@@ -82,6 +82,7 @@ const Index = () => {
                 src={logo}
                 alt="Daniela Cunioci Beauty"
                 className="h-full w-full object-cover"
+                style={{ objectPosition: "50% 18%" }}
                 loading="eager"
               />
             </div>
