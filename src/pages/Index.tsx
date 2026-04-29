@@ -104,7 +104,8 @@ const Index = () => {
                 fontSize: "10px",
                 letterSpacing: "0.18em",
                 fontWeight: 600,
-                border: "1px solid var(--gold-accent)",
+                background: "rgba(107, 76, 17, 0.13)",
+                border: "1px solid rgba(139, 96, 20, 0.35)",
                 textTransform: "uppercase",
               }}
             >
@@ -120,13 +121,17 @@ const Index = () => {
           </div>
 
           <p
-            className="mt-4 font-serif text-gold-accent animate-fade-up"
+            className="mt-4 font-serif text-gold-accent animate-fade-up inline-flex items-center"
             style={{
               animationDelay: "250ms",
               animationFillMode: "both",
               fontSize: "17px",
               letterSpacing: "0.02em",
               fontWeight: 500,
+              background: "rgba(107, 76, 17, 0.12)",
+              border: "1px solid rgba(139, 96, 20, 0.28)",
+              borderRadius: "20px",
+              padding: "4px 16px",
             }}
           >
             Cílios e Sobrancelhas · Alphaville
