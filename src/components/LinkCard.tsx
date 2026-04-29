@@ -29,7 +29,11 @@ export function LinkCard({
   const content = (
     <>
       <span
-        className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold-soft text-gold-accent"
+        className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-gold-accent"
+        style={{
+          background: "rgba(107, 76, 17, 0.18)",
+          border: "1.5px solid rgba(107, 76, 17, 0.35)",
+        }}
         aria-hidden="true"
       >
         {icon}
