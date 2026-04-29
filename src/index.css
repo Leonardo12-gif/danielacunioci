@@ -16,6 +16,7 @@
   --text-soft: #5e4530;
   --gold: #6E4A12;
   --gold-soft: rgba(110, 74, 18, 0.16);
+  --gold-accent: #C8881F;
   --divider: rgba(42, 26, 16, 0.22);
 
   /* shadcn token bridges (HSL) — kept so existing UI components still work */
@@ -49,6 +50,7 @@
   --text-soft: #8c7060;
   --gold: #c9a06a;
   --gold-soft: rgba(201, 160, 106, 0.12);
+  --gold-accent: #d4a85f;
   --divider: rgba(201, 160, 106, 0.15);
 
   --background: 16 18% 9%;
@@ -105,6 +107,7 @@
 
 @layer utilities {
   .text-gold { color: var(--gold); }
+  .text-gold-accent { color: var(--gold-accent); }
   .text-soft { color: var(--text-soft); }
   .text-mid  { color: var(--text-mid); }
   .bg-gold { background-color: var(--gold); }
