@@ -29,7 +29,7 @@ export function LinkCard({
   const content = (
     <>
       <span
-        className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold-soft text-gold"
+        className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold-soft text-gold-accent"
         aria-hidden="true"
       >
         {icon}
@@ -51,7 +51,7 @@ export function LinkCard({
         ) : null}
       </span>
       <span
-        className={`text-gold opacity-60 transition-[opacity,transform] duration-200 group-hover:opacity-100 group-hover:translate-x-[2px] ${
+        className={`text-gold-accent opacity-80 transition-[opacity,transform] duration-200 group-hover:opacity-100 group-hover:translate-x-[2px] ${
           expanded ? "rotate-90" : ""
         }`}
         style={{ fontSize: "18px", lineHeight: 1 }}
