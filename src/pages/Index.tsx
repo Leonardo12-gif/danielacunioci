@@ -99,13 +99,14 @@ const Index = () => {
               DANIELA CUNIOCI
             </h1>
             <span
-              className="inline-flex items-center rounded-full px-2.5 py-[3px] font-label text-gold-accent"
+              className="inline-flex items-center rounded-full px-2.5 py-[3px] font-label"
               style={{
                 fontSize: "10px",
                 letterSpacing: "0.18em",
                 fontWeight: 600,
-                background: "rgba(107, 76, 17, 0.13)",
-                border: "1px solid rgba(139, 96, 20, 0.35)",
+                background: "#8B6014",
+                color: "#F5ECD7",
+                border: "1px solid #8B6014",
                 textTransform: "uppercase",
               }}
             >
@@ -121,15 +122,16 @@ const Index = () => {
           </div>
 
           <p
-            className="mt-4 font-serif text-gold-accent animate-fade-up inline-flex items-center"
+            className="mt-4 font-serif animate-fade-up inline-flex items-center"
             style={{
               animationDelay: "250ms",
               animationFillMode: "both",
               fontSize: "17px",
               letterSpacing: "0.02em",
               fontWeight: 500,
-              background: "rgba(107, 76, 17, 0.12)",
-              border: "1px solid rgba(139, 96, 20, 0.28)",
+              background: "#8B6014",
+              color: "#F5ECD7",
+              border: "1px solid #8B6014",
               borderRadius: "20px",
               padding: "4px 16px",
             }}
