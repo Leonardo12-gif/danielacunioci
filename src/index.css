@@ -14,8 +14,8 @@
   --text-primary: #2a1a10;
   --text-mid: #4a3525;
   --text-soft: #5e4530;
-  --gold: #f5e6d3;
-  --gold-soft: rgba(245, 230, 211, 0.22);
+  --gold: #BF8C30;
+  --gold-soft: rgba(191, 140, 48, 0.18);
   --divider: rgba(42, 26, 16, 0.22);
 
   /* shadcn token bridges (HSL) — kept so existing UI components still work */

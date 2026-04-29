@@ -82,6 +82,7 @@ const Index = () => {
                 src={logo}
                 alt="Daniela Cunioci Beauty"
                 className="h-full w-full object-cover"
+                style={{ objectPosition: "50% 18%" }}
                 loading="eager"
               />
             </div>
@@ -123,10 +124,9 @@ const Index = () => {
             style={{
               animationDelay: "250ms",
               animationFillMode: "both",
-              fontSize: "15px",
+              fontSize: "17px",
               letterSpacing: "0.02em",
               fontWeight: 300,
-              fontStyle: "italic",
             }}
           >
             Cílios e Sobrancelhas · Alphaville
